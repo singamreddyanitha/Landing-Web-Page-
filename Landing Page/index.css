@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.navbar{
+    background-color: #8ca959;
+    margin: auto;  
+    
+}
+.bg-container{
+    background-image: url("https://res.cloudinary.com/dmk0dwhxs/image/upload/v1686490939/nature-floral-green-background-free-vector_r0xuqn.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 80vh;   
+}
+
+.navbar-brand{
+    line-height: 40px;
+    font-size: 35px;
+    font-size: inline;
+}
+.logo:hover {
+    background-color: #157621;
+    transition: 0.5s ease;
+}
+.navbar-nav{
+    float: right;
+    display: inline-flexbox;
+    list-style: none;
+    padding: 0px 5px;
+}
+.nav-link{
+    color: #0e0d0d;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.nav-link:hover{
+    background-color: #157621;
+    color: #ffffff;
+    transition: 0.5s ease;
+}
+.nav-link:active {
+    background-color: #157621;
+}
+.article{
+    width: 50%;
+    margin-right: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px;
+}
+h1 {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: "Roboto", sans-serif;
+    color: #157621;
+    margin-bottom: 15px;
+}
+h1:hover{
+    color: #069617;
+    transition: 0.5s ease;
+}
+.title {
+   color: #5b5b14; 
+}
+.title:hover{
+    color: #7b49c5;
+}
+p {
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+.box {
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: #8ca959;
+    
+}
+.box:hover {
+    background-color: #157621;
+    transition: 0.5s ease;
+    transform: scale(1.5);
+}
+.icons-container{
+    font-size: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 10px;
+    transition-property: transform;
+}
+.icon{
+    margin-right: 30px;
+    color: #157621;
+    align-items: last baseline;
+}
+
+.icon:hover{
+    color: #031c06;
+    transition: 0.5s ease;
+    transform: scale(1.5);
+}
